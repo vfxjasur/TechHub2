@@ -1,1 +1,1 @@
-web: gunicorn techhub.wsgi --log-file -
+web: gunicorn --pythonpath . techhub.wsgi:application
